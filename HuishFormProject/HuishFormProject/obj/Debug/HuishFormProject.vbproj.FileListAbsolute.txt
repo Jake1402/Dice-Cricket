@@ -1,0 +1,12 @@
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\bin\Debug\HuishFormProject.exe.config
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\bin\Debug\HuishFormProject.exe
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\bin\Debug\HuishFormProject.pdb
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\bin\Debug\HuishFormProject.xml
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.vbprojAssemblyReference.cache
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.Resources.resources
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.vbproj.GenerateResource.cache
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.vbproj.CoreCompileInputs.cache
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.exe
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.xml
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.pdb
+C:\Users\jakey\Desktop\Programming\VB\HuishFormProject\HuishFormProject\obj\Debug\HuishFormProject.frmDiceCricket.resources
