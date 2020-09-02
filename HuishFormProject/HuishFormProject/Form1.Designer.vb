@@ -31,6 +31,8 @@ Partial Class frmDiceCricket
         Me.txtScores = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.totalBox = New System.Windows.Forms.TextBox()
+        Me.GithubPictureLink = New System.Windows.Forms.PictureBox()
+        CType(Me.GithubPictureLink, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblPlayerName
@@ -63,8 +65,10 @@ Partial Class frmDiceCricket
         '
         'txtScores
         '
+        Me.txtScores.BackColor = System.Drawing.SystemColors.InactiveBorder
         resources.ApplyResources(Me.txtScores, "txtScores")
         Me.txtScores.Name = "txtScores"
+        Me.txtScores.ReadOnly = True
         '
         'Label2
         '
@@ -73,13 +77,23 @@ Partial Class frmDiceCricket
         '
         'totalBox
         '
+        Me.totalBox.BackColor = System.Drawing.SystemColors.InactiveBorder
         resources.ApplyResources(Me.totalBox, "totalBox")
         Me.totalBox.Name = "totalBox"
+        Me.totalBox.ReadOnly = True
+        '
+        'GithubPictureLink
+        '
+        resources.ApplyResources(Me.GithubPictureLink, "GithubPictureLink")
+        Me.GithubPictureLink.Name = "GithubPictureLink"
+        Me.GithubPictureLink.TabStop = False
         '
         'frmDiceCricket
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.Controls.Add(Me.GithubPictureLink)
         Me.Controls.Add(Me.totalBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtScores)
@@ -91,6 +105,7 @@ Partial Class frmDiceCricket
         Me.HelpButton = True
         Me.MaximizeBox = False
         Me.Name = "frmDiceCricket"
+        CType(Me.GithubPictureLink, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -104,4 +119,5 @@ Partial Class frmDiceCricket
     Friend WithEvents txtScores As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents totalBox As TextBox
+    Friend WithEvents GithubPictureLink As PictureBox
 End Class

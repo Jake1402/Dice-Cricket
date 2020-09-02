@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblPlayerName.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="InputName.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 45</value>
@@ -168,7 +168,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;InputName.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="btnPlayerName.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 77</value>
@@ -192,7 +192,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnPlayerName.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btnNextShot.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 156</value>
@@ -216,7 +216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnNextShot.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9pt</value>
@@ -243,7 +243,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="txtScores.Location" type="System.Drawing.Point, System.Drawing">
     <value>150, 156</value>
@@ -267,7 +267,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtScores.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -297,7 +297,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="totalBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>150, 402</value>
@@ -318,6 +318,74 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;totalBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GithubPictureLink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAihSURBVHhe7Z1p
+        yA5fGMbfbNn3XfYlW/YtfFC2LNl9oJDlCyHJLkJZI2WXLSFCsibio+yUfSmypFBI9u38u9//PXk8XXPm
+        zJkzz5yZ5lfXBz3nPve553rNM3PmnHnyRIpVpIZYRmqIZaSGWEZqiGWkhliG9YZcv35d7Nq1S8ydO1eM
+        HDlS9OzZU3Ts2FG0bt1atGnTRnTu3Fn07dtXjBs3TixZskQcOnRIPHr0iKPjh1WGfPnyRWzdujX/AOfl
+        5QVWhQoVxKhRo8TRo0c5g/1Ebsi3b9/EwoULRZkyZeBBNalmzZqJbdu2cWY7icyQc+fOiebNm8MDlwsN
+        GjRIvHjxgkdjDzk35ODBg6JQoULwIEWhJk2aiAcPHvDooidnhly5ckUULVoUHhQb1LZtW/H161cebXTk
+        xBC6EkIHwUbNmDGDRx0NoRpCVzeoaNtVoEAB8ebNG64it4RmSL9+/WCxcdL69eu5mtwRiiHFixeHBcZR
+        PXr04Kpyg1FD3r59C4uKuypXrswVho8xQx4/fgyLSYroeyUXGDHEy4yWLVuKsmXLws9sUvXq1UW7du3g
+        Z47CJnAGr9MUmZXJkydPxOLFi624J6HJyd27d4vPnz/z6P5n1qxZsD2pcOHC3CocAhuCBu2ICpZx6dIl
+        UalSJRgbpoYNGyZ+/PjBo8CgOEe1atXiVuYJZEixYsXggB0dP36cW8qh6XUUb1olSpRQvr8YMWIE7MPR
+        0KFDuaVZtA1RmSL3w8+fP2EfmapTp07+s5BevXqJ/v3759/rdO/ePX/ag87/KMaR3wOoclO7f/9+bm0O
+        LUOOHDkCB5gtHUqVKpUfO3DgQLFz507x9OlT/kQdmiyk5yp9+vTJ72vOnDn8iTqvX7/+pxY3eZ36/KJ1
+        1NDAskV/sXEH1ZUt0/covg3p1KkTHFi2ateuzRHxBdWFtGHDBo4Iji9D6KoIDQiJTj1xB9XlJlP46qlI
+        kSJwMG6KM/Q0EdXkJroqM4HyUTtw4AAciEzPnz/n6PhBTzZRTTKZ+IJXNoTmctAgZKLFC3FlyJAhsCaZ
+        hg8fztH6KBly5swZOAAVxRVUi4qCotRD48aNYXIv0c1jXKFHuagmLwU9K3gaQhNvKLGXqlWrxj3EF91l
+        SkHwjJ4/fz5M6qWkgGrz0s2bNznaP55HrmTJkjCpTOvWrePo+LNmzRpYo0xjx47laP9IDfn06RNM6KWk
+        gWr0ki7SyM2bN8NkMm3atImjkwOtvEe1yqS7jEhqSO/evWEymZKIzpmC/ph1kB5BlEimbt26cWTycB4L
+        qGrw4MEc6Q+jhti+1D8I48ePhzW7qXz58hzpD1dDrl69ChPJZOPyflPs3bsX1iyTDq5RO3bsgElkSjJ3
+        796FNcv07t07jlbH9SjSY0+UxE205yPJ0Ewuqlsmen7kF1dDaIMlSuImWoCQdFDdMtEUvl9cDaFFxiiJ
+        m1q0aMGRyQXVLZPOo11XQzp06ACTuImWiyYdVLdMy5Yt40h1XA1p1aoVTOKmevXqcWRyQXXLtGjRIo5U
+        x9UQ2piPkrgp6V/qHz9+hHXLRGuY/eJqiM6+wCRz4cIFWLNMq1at4mh1XI+izpa0hw8fcnTyWL58OaxZ
+        Jp2ZC1dDJkyYAJPItGLFCo5OHrR+GNUs08mTJzlaHVdDli5dCpPIVLNmTY5OHqheL9HdvV9cDVFdUJ0t
+        nekC29m4cSOs1Us6uEbRqnOUxEv0DpGkgepUkQ7SKJRERe/fv+ce4o/u/w5aOqWD1BBayoOSeSmX24jD
+        BtWnokmTJnEP/pAaonOl5Wjq1KncS3zR/YMknTp1invxh9SQ06dPw2Sqooc6cYW2zaGaVKWLZyRK5kdx
+        NIX2L6JaVFW3bl3uyT+ehvid9UWaNm0a92Y/9EIzVIMfBblB9jSEdpqipH5FN41//vzhXu3jxo0bcNw6
+        +vXrF/fqH6WTHUqqq9mzZ3OvdkB/JLS1Go1VR02bNuWe9VAyZPTo0TC5I7rMpdex0jt10edI8+bN496j
+        gbY962zK8dKJEyc4gx5Khng9C8jm/PnzomDBgrBttrp06SIOHz7MkeHy/fv3/IXgNWrUgGMxoaAo99C1
+        a1c4AFKjRo241b/QSkbU3k3169cX06dPz7+GN3G3/+zZM7Fv3z4xZswYrVX8fmVie7SyISovJ/vw4QO3
+        /ovMSJlevnzJPeizZ88e2HdYMoGvXnTfb4LayUTv1jIF6j8Mmbrf8m0rGkym0DyW31V/AwYM4MjglC5d
+        GuYwqXLlynG24Pg2ZO3atXBQmdq+fTu3/svZs2dhW6TJkydzVHAaNmwIc5jUq1evOFtwtE58VapUgQPL
+        FIIeXtENImqfKfpiNwUt4EM5TMn0JKqWIb9//4aDyxS9lMwNWgwxceLE/LVcmTH0Cwm0uOLOnTvcMjh+
+        15f5Eb0QzTRahhB0aYoG6SjsdxOqEqYhQaZI3NA2hKC/cjRQR1OmTOGW0RGWIbROKwwCGUK0b98eDtgR
+        vRUuSsIwhC5swiKwIYTXF3WUE4qmDTF5BYgwYghRtWpVWICjihUritu3b3Pr3GHSEPrhsbAxZgjRoEED
+        WEimaDMkLdO/desWR/3L5cuXxbVr1/hfwTFlSK4eshk1hNDZ256tmTNncm/BMWHIli1buLfwMW4IobMw
+        OVMmX3wW1JAgL5LRIRRDiHv37sECVbRgwQLuJTi6htB3YhSEZoiD372KpKgN0dloY4rQDSEuXrwIC3eT
+        SUP8zGXRRQn92miU5MQQh9WrV8MDka2VK1dyRHBUXvxM0zz02NkGcmqIg9eXPv0cqylkr7el5xjHjh3j
+        lnYQiSEOtAcle2EaPQM3TfZKRHry6XYfFDWRGuJAr62gtx6Eef6+f/++8u+ZRIkVhqT8JTXEMlJDLCM1
+        xDJSQywjNcQyUkMsIzXEMlJDLCM1xDJSQywjNcQyUkMsIzXEKoT4D2gLTosEz1EUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GithubPictureLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GithubPictureLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 242</value>
+  </data>
+  <data name="GithubPictureLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 127</value>
+  </data>
+  <data name="GithubPictureLink.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GithubPictureLink.Name" xml:space="preserve">
+    <value>GithubPictureLink</value>
+  </data>
+  <data name="&gt;&gt;GithubPictureLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GithubPictureLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GithubPictureLink.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
