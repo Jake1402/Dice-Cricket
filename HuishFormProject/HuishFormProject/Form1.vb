@@ -6,7 +6,7 @@ Public Class frmDiceCricket
     End Sub
 
     Public Sub ClearArr()
-
+        'unused delete if you want :)
     End Sub
 
     '
@@ -27,10 +27,29 @@ Public Class frmDiceCricket
 
     Private Sub btnPlayerName_MouseClick(sender As Object, e As MouseEventArgs) Handles btnPlayerName.MouseClick
 
-        NameArray(PlaceInNames) = InputName.Text
-        txtScores.AppendText(NameArray(PlaceInNames) + " - Has entered!" & vbCrLf) '& vbCrLf &
+        ' Try block to catch weather the user has added more than 2 players
+        ' this prevents any errors due to an array becoming out of index
+
+        Try
+
+            NameArray(PlaceInNames) = InputName.Text
+            txtScores.AppendText(NameArray(PlaceInNames) + " - Has entered!" & vbCrLf) '& vbCrLf &
+
+        Catch ex As Exception
+
+            txtScores.AppendText("Only 2 Players are aloud! Resetting array! :)" & vbCrLf) 'alerting user
+
+            Dim NameArray(1) As String 'resetting array
+            PlaceInNames = 10
+
+        End Try
+
 
         PlaceInNames += 1
+
+        If PlaceInNames = 11 Then 'checking weather the arrays index has been placed out of bounds
+            PlaceInNames = 0
+        End If
 
     End Sub
 
@@ -40,12 +59,12 @@ Public Class frmDiceCricket
 
     Private Sub btnNextShot_MouseClick(sender As Object, e As MouseEventArgs) Handles btnNextShot.MouseClick
 
-        Dim DiceRoll As Integer = Math.Ceiling(Rnd() * 12)
+        Dim DiceRoll As Integer = Math.Ceiling(Rnd() * 6) + Math.Ceiling(Rnd() * 6) '2 dice to increase amount of randomness
         Score(RollPlaces) = DiceRoll
 
-        If RollPlaces Mod 2 = 0 Then
+        If RollPlaces Mod 2 = 0 Then 'Mod is % because F modulo symbol said microsoft
 
-            If DiceRoll = 5 Then
+            If DiceRoll = 5 Then 'declearing who the loser is
                 txtScores.AppendText(NameArray(0) & " is a LOSER" & vbCrLf)
                 totalBox.Text = NameArray(1) & " won with " & TotalDiceValueB.ToString() & " points"
 

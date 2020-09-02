@@ -63,8 +63,10 @@ Partial Class frmDiceCricket
         '
         'txtScores
         '
+        Me.txtScores.BackColor = System.Drawing.SystemColors.InactiveBorder
         resources.ApplyResources(Me.txtScores, "txtScores")
         Me.txtScores.Name = "txtScores"
+        Me.txtScores.ReadOnly = True
         '
         'Label2
         '
@@ -73,13 +75,16 @@ Partial Class frmDiceCricket
         '
         'totalBox
         '
+        Me.totalBox.BackColor = System.Drawing.SystemColors.InactiveBorder
         resources.ApplyResources(Me.totalBox, "totalBox")
         Me.totalBox.Name = "totalBox"
+        Me.totalBox.ReadOnly = True
         '
         'frmDiceCricket
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Control
         Me.Controls.Add(Me.totalBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtScores)
