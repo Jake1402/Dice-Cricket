@@ -22,7 +22,7 @@ Public Class frmDiceCricket
     Dim Score(1024) As Integer
 
     '
-    'Class to add players
+    'Sub method to add players
     '
 
     Private Sub btnPlayerName_MouseClick(sender As Object, e As MouseEventArgs) Handles btnPlayerName.MouseClick
@@ -35,7 +35,7 @@ Public Class frmDiceCricket
     End Sub
 
     '
-    ' Class that detects weather someone has rolled a dice
+    ' Sub method that detects weather someone has rolled a dice
     '
 
     Private Sub btnNextShot_MouseClick(sender As Object, e As MouseEventArgs) Handles btnNextShot.MouseClick
